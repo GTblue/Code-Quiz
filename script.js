@@ -2,15 +2,14 @@
 
 var container = document.querySelector(".container");
 var questions = document.getElementById("questions");
-var segment = document.getElementById("segment");
 var answers = document.getElementById("answers");
-var highscore = document.getElementById("highscore");
+var correct = document.getElementById("correctAnswer");
+var highScore = document.getElementById("highScore");
 var finish = document.getElementById("finish")
-var div = document.getElementById("answers");
-var button = document.getElementById("start-button");
+// var div = document.getElementById("answers");
+var button = document.getElementById("startButton");
 var timerEl = document.querySelector("timer");
-var pTags = document.querySelector("p")
-var segment = document.getElementById("segment");
+var pTags = document.querySelector("p");
 
 var secondsLeft = 75;
 var setInterval;
@@ -49,7 +48,6 @@ function displayQuestions(){
         console.log(i)
     }
 }
-
 
 
 button.addEventListener("click", function(){
